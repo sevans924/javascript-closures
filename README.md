@@ -41,6 +41,12 @@ __Prior knowledge of students:__
 ## Student Activity 3: Practical Use Cases for Closures
 ## Review 3: Practical Use Cases for Closures
 
+## References
+* [Closures - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+* [Learn JavaScript Closures with Code Examples
+](https://www.freecodecamp.org/news/lets-learn-javascript-closures-66feb44f6a44/)
+* [Private Members in JavaScript
+](https://www.crockford.com/javascript/private.html)
 
 
 
