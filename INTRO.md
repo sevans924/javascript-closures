@@ -11,15 +11,15 @@ function myPassword() {
 ```
 ```password``` is local to the function ```myPassword```. It's pretty safe in there because, remember, only ```myPassword``` has access to the password. But we can't really do anything with it. What if we want to check that a password that a user enters matches ```password```? If we return ```password```, it's not so secret anymore. Take a minute to copy the ```myPassword()``` function into your console and play around with it. Can you find a way to check to see if the password that a user enters is a match, without revealing ```password```?
 
-### Closures
+## Closures
 Maybe you set up a simple conditional statement, maybe you thought of another way, or maybe you're feeling a little lost. Wherever you are let's take a look at a really cool solution that Javascript offers to this problem: its called a __closure__.
 
-A __closure__ is basically a function inside of a function that offers added flexibilty.
+A __closure__ is basically a function inside of a function.
 
 ```
 function myPassword() {
   var password = 'safe,Password20';
-  var guessPassword = function(userInput) {
+  function guessPassword (userInput) {
       if ( userInput === password) {
         return true;
       } else {
@@ -33,3 +33,12 @@ function myPassword() {
   console.log(myPassword('maskParty'))  /// false
 ```
 
+Notice that ```guessPassword``` is declared inside of the ```myPassword``` function. ```myPassword``` is the 'parent' of ```guessPassword``` and guess what - children inherit all methods and variables from their parents. So ```guessPassword``` has access to ```password```!!!
+
+But can parents inherit from children? Copy and paste ```myPassword``` into your console and see if the parent function has access to ```userInput```, the parameter taken in by ```guessPassword```. If you are a parent, you already know the answer to this question: no, parents do not inherit from their children. We refer to this as _scope chain_ and you're about to learn more about the cool things that we can do with it.
+
+## Conclusion
+Over the next couple of lessons you'll learn more about closures, scope chain, and practical use cases. 
+
+
+vvvpoiuytrewq                               poiuytrewqqasdafghjkl;l7123456iyyuuyuuuuyyyttygffffgghhhhhhhjjkkjytrtgfghfdg
