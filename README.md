@@ -35,14 +35,18 @@ __Prior knowledge of students:__
 ### Key terms and points
 * Define the term 'closure'
 * Demonstrate how to invoke a closure
+* 'Function-level scope'
 * Closures have access to variables and parameters that belong to all parent functions.
 
 ### Notes
 * The instructor-demo file contains a function called, 'onion'. Ask students to predict what will happen when you console.log(onion()). Discuss predictions, invoke the function, discuss the outcome ([Function: insideOnion]).
 * Tell students that insideOnion() is a closure, and that they will be able to define this term in their own words by the end of the lesson.
 * Ask students how they can access the function insideOnion(). If students aren't sure, guide them towards onion()().  _(extension: Demonstrate other ways to invoke a closure.)_
-* Once the closure has been invoked, ask them to notice what was logged. What does this tell them about closures and scope? What do they have access to?
-* Ask students how 
+* Once the closure has been invoked, ask them to notice what was logged. What does this tell them about closures and scope? What do they have access to? _Closures have access to variables and parameters that belong to all parent functions._
+* Ask students to summarize what they know about closures so far.
++ a closure is a function inside of a parent function
++ several ways to invoke a closure
++ closures have access to variables and parameters that belong to all parent functions.
 
 
 ## Student Activity 1: Closures
