@@ -16,7 +16,7 @@ __Prior knowledge of students:__
 * Access to other students via slack, etc.
 * Asynchronous learning - concepts are introduced in recorded lectures that students can either attend, or watch later, activities are done at student’s pace
 * Students have covered basic data types and know how to declare a function
-* Students have encountered different types of functions (anonymous, arrow, etc.) but may not have yet mastered them
+* Students have encountered vocbulary associated with functions and different types of functions (function expression, anonymous function, arrow function, IIFE, etc.) but may not have yet mastered them
 * Students are familiar with basic scope and hoisting
 
 
