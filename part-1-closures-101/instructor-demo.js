@@ -1,5 +1,16 @@
 
-  
+  /////closure
+
+  let skin = 'outer' 
+
+  function outsideOnion(){
+      let layer1 = 'first layer'
+    function insideOnion(){
+        let layer2 = 'inside the onion'
+        console.log(`Peel back the ${skin} layer, then the ${layer1}, finally we reach the ${layer2}`)
+    }
+    return insideOnion
+  }
   
   
   /////////invoking closures
