@@ -31,9 +31,22 @@ __Prior knowledge of students:__
 
 ## Introduction
 
-## Instructor Demo 1: Creating and invoking a closure
-## Student Activity 1: Creating and invoking a closure
-## Review 1: Creating and invoking a closure
+## Instructor Demo 1: Closures
+### Key terms and points
+* Define the term 'closure'
+* Demonstrate how to invoke a closure
+* Closures have access to variables and parameters that belong to all parent functions.
+
+### Notes
+* The instructor-demo file contains a function called, 'onion'. Ask students to predict what will happen when you console.log(onion()). Discuss predictions, invoke the function, discuss the outcome ([Function: insideOnion]).
+* Tell students that insideOnion() is a closure, and that they will be able to define this term in their own words by the end of the lesson.
+* Ask students how they can access the function insideOnion(). If students aren't sure, guide them towards onion()().  _(extension: Demonstrate other ways to invoke a closure.)_
+* Once the closure has been invoked, ask them to notice what was logged. What does this tell them about closures and scope? What do they have access to?
+* Ask students how 
+
+
+## Student Activity 1: Closures
+## Review 1: Closures
 ## Instructor Demo 2: Scope Chain
 ## Student Activity 2: Scope Chain
 ## Review 2: Scope Chain
