@@ -1,4 +1,3 @@
 
-image: ![](javascript-closures/img/Scope-Chain-Activity.jpg)
-
+image: ![](/img/Scope-Chain-Activity.jpg)
 
