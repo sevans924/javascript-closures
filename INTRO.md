@@ -5,6 +5,7 @@
 * Define 'scope chain'
 * Understand practical use cases for closures
 
+__This lesson includes code-along activities, so fire up that console._
 
 Many coding languages have private methods and instance variables that allow the developer to control access to and hide sensitive information. Javascript has its own way of helping developers to keep information hidden.
 
