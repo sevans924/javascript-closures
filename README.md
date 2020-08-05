@@ -62,9 +62,17 @@ __Prior knowledge of students:__
 ### Key terms and points
 * Define 'scope chain'
 * Closures inherit variables and parameters from their parent functions
+* Clusures have access to global variables
+* Parents do not inherit from children
 
 ### Notes
-* 
+* Ask students to summarize what they've learned so far about closures. Tell them that they will be learning about scope and inheritance in this lesson.
+* ```myFunc``` in instructor-demo.js demonstrates that closures have access to global variables. Ask students to predict what will happen when the code runs. Then, change ```c``` and ```d``` to ```x``` to demonstrate how javaScript defines x, depending on where the console.log is located.
+* Explain that the function ```layer1``` begins to demonstrate scope chain. Ask students to count how many closures they see. Ask them to either draw or write down which variables they believe ```layer1```, ```layer2```, ```layer3``` have access to. Test out their answers. 
+* Ask them how they would invoke ```layer1```. Experiment with taking invoking parentheses away to see what happens.
+* Ask students if they think the closure in ```level1``` has access to ```e```. Discuss why it does have access to it, even though ```e``` is declared after ```level3```.
+* Ask students to define scope chain.
+* Summarize key points.
 
 
 ## Student Activity 2: Scope Chain

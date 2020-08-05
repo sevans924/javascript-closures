@@ -1,19 +1,21 @@
 let x = 1
 
 function myFunc(){
-  var x = 2
-  function apple(){
-    var x = 3
+  var c = 2
+  function innerFunc(){
+    var d = 3
     console.log(x, 'hi')
   }
     console.log(x, 'hi2')
 
-  return apple
+  return innerFunc
 }
 
 console.log(x, 'hi3')
 
 console.log(myFunc()())
+
+//////////////////////////////////////////////
 
 
 let a = 0
@@ -31,8 +33,22 @@ function layer1(arg1){
   return layer2
 }
 
+///////////////////////////////////////////////////
 
-/*Each parentheses invokes a deeper layer of the function.
-What do you think will happen if you remove one of the parentheses
-layer1(10)(20)(30)
-*/
+let a = 0
+
+function level1(arg1){
+  let b = 1
+  var level2 = function (arg2){
+    let c = 2
+    function level3(arg3){
+      let d = 3
+      console.log(a, b, c, d, arg1, arg2, arg3, e)
+    }
+    let e = 200
+    return level3
+  }
+  return level2
+}
+
+level1(10)(20)(30)
