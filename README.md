@@ -35,16 +35,16 @@ Materials cooresponding with parts 1, 2, and 3 can be found in their respective 
 
 ## Instructor Demo 1: Closures
 ### Key terms and points
-* Define the term 'closure'
+* Define 'closure'
 * Demonstrate how to invoke a closure
-* 'Function-level scope'
+* Define 'Function-level scope'
 * Closures have access to variables and parameters that belong to all parent functions.
 
 ### Notes
-* The instructor-demo file contains a function called, 'onion'. Ask students to predict what will happen when you console.log(onion()). Discuss predictions, invoke the function, discuss the outcome ([Function: insideOnion]).
-* Tell students that insideOnion() is a closure, and that they will be able to define this term in their own words by the end of the lesson.
-* Ask students how they can access the function insideOnion(). If students aren't sure, guide them towards onion()().  _(extension: Demonstrate other ways to invoke a closure.)_
-* Once the closure has been invoked, ask them to notice what was logged. What does this tell them about closures and scope? What do they have access to? _Closures have access to variables and parameters that belong to all parent functions._
+* The instructor-demo file contains a function ```onion```. Ask students to predict what will happen when you ```console.log(onion())```. Discuss predictions, invoke the function, discuss the outcome ([Function: insideOnion]).
+* Tell students that ```insideOnion()``` is a closure, and that they will be able to define this term in their own words by the end of the lesson.
+* Ask students how they can access ```insideOnion()```. If students aren't sure, guide them towards ```onion()()```.  _(extension: Demonstrate other ways to invoke a closure.)_
+* Once the closure has been invoked, ask them to notice what was logged in the console. What does this tell them about closures and scope? What do they have access to? _Closures have access to variables and parameters that belong to all parent functions._
 * Ask students to summarize what they know about closures so far.
   + a closure is a function inside of a parent function
   + several ways to invoke a closure
@@ -58,7 +58,7 @@ Materials cooresponding with parts 1, 2, and 3 can be found in their respective 
 * Allow students the opportunity to ask questions about their activity and/or share what they discovered
 * The review file contains an empty function called ```onion```. Have students take turns declaring global and local variables, creating a closure, and invoking the closure using ```onion```. Encourage them to try multiple solutions. _i.e. How does the code change when the closure is an anonymous function?_
 * Extension 1: Look at the function in instructor-demo.js - ask students to discuss whether or not the inner function is a closure, since it doesn't reference any variables in its lexical environment.
-* Extension 2: Guide students through creating multiple closures, or in this case, multiple layers of the onion. 
+* Extension 2: Guide students through creating multiple closures, or in this case, 'multiple layers of the onion'. 
 ## Instructor Demo 2: Scope Chain
 
 ### Key terms and points
@@ -70,7 +70,7 @@ Materials cooresponding with parts 1, 2, and 3 can be found in their respective 
 ### Notes
 * Ask students to summarize what they've learned so far about closures. Tell them that they will be learning about scope and inheritance in this lesson.
 * ```equalsTen``` in instructor-demo.js demonstrates scope chain in simple terms. Invoke the function and ask students what they notice about how variables are passed down to the inner-most function. Define scope chain.
-* ```myFunc``` demonstrates that closures also have access to global variables. Ask students to predict what will happen when the code runs. Then, change ```c``` and ```d``` to ```x``` to demonstrate how x is defined, depending on where the console.log is located.
+* ```myFunc``` demonstrates that closures also have access to global variables. Ask students to predict what will happen when the code runs. Then, change ```c``` and ```d``` to ```x``` to demonstrate how ```x``` is defined, depending on where the ```console.log``` is located.
 * Explain that the function ```layer1``` demonstrates how arguments are also passed down through scope chain. Ask students to count how many closures they see. Ask them to either draw or write down which variables they believe ```layer1```, ```layer2```, ```layer3``` have access to. 
 * Ask them how they would invoke ```layer1```. Experiment with taking invoking parentheses away to see what happens.
 * Ask students if they think the closure in ```level1``` has access to ```e```. Discuss why it does have access to it, even though ```e``` is declared after ```level3```.
@@ -82,24 +82,25 @@ Materials cooresponding with parts 1, 2, and 3 can be found in their respective 
 ## Review 2: Scope Chain
 * Students should complete the review activity independently or in pairs.
 * Allow students the opportunity to ask questions about their student activity and review activity. They should share what they discovered.
+* Introduce the term 'lexical environment' - will appear in next lesson
 * Ask students to define scope chain in their own words
 * Ask students to explain how scope chain relates to closures
 ## Instructor Demo 3: Practical Use Cases for Closures
 
 ### Key terms and points
-* Define 'Lexical Environment'
+* Define 'lexical environment'
 * Closures allow us to create multiple lexical environments that hold different values for local variables.
-* 
+* Students will circle back around to these concepts again as they build towards object-oriented programming
 
 ### Notes
-* Walk students through the myCounter() function in instructor-demo.js. Define 'Lexical Environment' and demonstrate that each time the outer function is called, it creates a separate lexical environment. So even though we are calling the same function, it is creating a new environment that may hold a different value.
+* Walk students through ```myCounter()``` in instructor-demo.js. Define 'lexical environment' and demonstrate that each time the outer function is called, it creates a separate lexical environment. So even though we are calling the same function, it is creating a new environment that may hold a different value.
 * Ask students to brainstorm how this might be valuable based on what they know so far. _i.e. storing data that can only be altered with certain methods_
 
 ## Student Activity 3: Practical Use Cases for Closures
 * If possible, ask students to work on the activity in student-activity.js in pairs.
 
 ## Review 3: Practical Use Cases for Closures
-* Open review.js and have students share how they built out the two functions, ```myCounter``` and ```myPassword```. 
+* Open review.js and have students share how they built out the two functions, ```myCounter``` and ```myPassword```. Build out the empty functions in review.js as a class.
 * Focus on ```myPassword``` and discuss practical implications for using closures in this way.
 * Looking ahead: 
     + explain to students that they will revisit a number of these concepts again when working with classes and object oriented programming. Closures will give them access to data stored within functions, similar to private methods in other languages.
