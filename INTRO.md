@@ -42,7 +42,7 @@ function myPassword() {
 
 Notice that ```guessPassword``` is declared inside of the ```myPassword``` function - that is one reason that it is considered a closure. ```myPassword``` is the 'parent' of ```guessPassword``` and guess what - children inherit all methods and variables from their parents. So ```guessPassword``` has access to ```password```!!!
 
-![](/img/baby-money.jpeg)
+![](/img/babypiggymoney.jpeg)
 
 But can parents inherit from children? 
 
@@ -66,7 +66,12 @@ function myPassword() {
 
 Try it. Copy and paste the ```myPassword``` funtion into your console and see if the parent function has access to ```userInput```, the parameter taken in by ```guessPassword```. 
 
-If you are a parent, you already knew the answer to this question: no, parents do not inherit from their children. You should have an error that looks like this ```ReferenceError: userInput is not defined```. We refer to this as _scope chain_ and you're about to learn more about the cool things that it lets us do.
+If you are a parent, you already knew the answer to this question: no, parents do not inherit from their children. 
+
+![](/img/sad-parent.jpeg)
+
+
+You should have an error that looks like this ```ReferenceError: userInput is not defined```. We refer to this as _scope chain_ and you're about to learn more about the cool things that it lets us do.
 
 ## Conclusion
 Over the next couple of lessons you'll learn more about closures, scope chain, and practical use cases. 
