@@ -84,6 +84,14 @@ __Prior knowledge of students:__
 * Ask students to define scope chain in their own words
 * Ask students to explain how scope chain relates to closures
 ## Instructor Demo 3: Practical Use Cases for Closures
+
+### Key terms and points
+* Define 'Lexical Environment'
+* Closures allow us to 
+
+###Notes
+* Each time the outer function is called, it creates a separate lexical environment. So even though you are calling the same function, it is creating a new environment that may have a different value.
+
 Privacy and memory
 ## Student Activity 3: Practical Use Cases for Closures
 Revisit function from intro - students try again
