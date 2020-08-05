@@ -93,14 +93,17 @@ __Prior knowledge of students:__
 ###Notes
 * Walk students through the myCounter() function in instructor-demo.js. Define 'Lexical Environment' and demonstrate that each time the outer function is called, it creates a separate lexical environment. So even though we are calling the same function, it is creating a new environment that may hold a different value.
 * Ask students to brainstorm how this might be valuable based on what they know so far. _i.e. storing data that can only be altered with certain methods_
-*
 
-Privacy and memory
 ## Student Activity 3: Practical Use Cases for Closures
-* If possible, ask students to work on this activity in pairs.
+* If possible, ask students to work on the activity in student-activity.js in pairs.
 
 ## Review 3: Practical Use Cases for Closures
-
+* Open review.js and have students share how they built out the two functions, ```myCounter``` and ```myPassword```. 
+* Focus on ```myPassword``` and discuss practical implications for using closures in this way.
+* Looking ahead: 
+    + explain to students that they will revisit a number of these concepts again when working with classes and object oriented programming. Closures will give them access to data stored within functions, similar to private methods in other languages.
+    + discuss how closures relate to objects, classes, and constructors
+    + scope chain and inheritance will come up again when learning object-oriented programming and frameworks, like React
 ## References
 * [Closures - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 * [Learn JavaScript Closures with Code Examples
