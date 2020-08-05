@@ -21,13 +21,14 @@ __Prior knowledge of students:__
 
 
 ## Overview
-
+Materials cooresponding with parts 1, 2, and 3 can be found in their respective folders. Each folder contains an instructor-demo, a student-activity, and a review file.
 
 ## Objectives
 
-### Students will be able to...
+### Students will...
 * define 'closure' in JavaScript in their own words
-* define scope chain in their own words
+* define 'scope chain' in their own words
+* understand the term 'lexical environment'
 * describe practical use cases for closures
 
 ## Introduction
@@ -77,7 +78,7 @@ __Prior knowledge of students:__
 * Summarize key points.
 
 ## Student Activity 2: Scope Chain
-* students will practice creating closures and variables to demonstrate scope chain.
+* Students will practice creating closures and variables to demonstrate scope chain in student-activity.js.
 ## Review 2: Scope Chain
 * Students should complete the review activity independently or in pairs.
 * Allow students the opportunity to ask questions about their student activity and review activity. They should share what they discovered.
@@ -90,7 +91,7 @@ __Prior knowledge of students:__
 * Closures allow us to create multiple lexical environments that hold different values for local variables.
 * 
 
-###Notes
+### Notes
 * Walk students through the myCounter() function in instructor-demo.js. Define 'Lexical Environment' and demonstrate that each time the outer function is called, it creates a separate lexical environment. So even though we are calling the same function, it is creating a new environment that may hold a different value.
 * Ask students to brainstorm how this might be valuable based on what they know so far. _i.e. storing data that can only be altered with certain methods_
 
