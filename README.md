@@ -33,6 +33,8 @@ Materials cooresponding with parts 1, 2, and 3 can be found in their respective 
 
 ## Introduction
 
+Code-along and reading in INTRO.md.
+
 ## Instructor Demo 1: Closures
 ### Key terms and points
 * Define 'closure'
