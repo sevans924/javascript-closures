@@ -1,3 +1,25 @@
+let r = 1
+
+function equalsTen(){
+  let s = 2
+  function addNums1(){
+    let t = 3
+    function addNums2(){
+      let u = 4
+      return (r + s + t + u)
+    }
+    return addNums2
+  }
+  return addNums1
+}
+
+//equalsTen()()()
+
+
+
+
+
+//////////////////////
 let x = 1
 
 function myFunc(){
