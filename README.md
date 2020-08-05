@@ -87,14 +87,18 @@ __Prior knowledge of students:__
 
 ### Key terms and points
 * Define 'Lexical Environment'
-* Closures allow us to 
+* Closures allow us to create multiple lexical environments that hold different values for local variables.
+* 
 
 ###Notes
-* Each time the outer function is called, it creates a separate lexical environment. So even though you are calling the same function, it is creating a new environment that may have a different value.
+* Walk students through the myCounter() function in instructor-demo.js. Define 'Lexical Environment' and demonstrate that each time the outer function is called, it creates a separate lexical environment. So even though we are calling the same function, it is creating a new environment that may hold a different value.
+* Ask students to brainstorm how this might be valuable based on what they know so far. _i.e. storing data that can only be altered with certain methods_
+*
 
 Privacy and memory
 ## Student Activity 3: Practical Use Cases for Closures
-Revisit function from intro - students try again
+* If possible, ask students to work on this activity in pairs.
+
 ## Review 3: Practical Use Cases for Closures
 
 ## References
