@@ -26,8 +26,9 @@ __Prior knowledge of students:__
 ## Objectives
 
 ### Students will be able to...
-* define a closure in JavaScript in their own words
-* 
+* define 'closure' in JavaScript in their own words
+* define scope chain in their own words
+* describe practical use cases for closures
 
 ## Introduction
 
@@ -52,6 +53,11 @@ __Prior knowledge of students:__
 ## Student Activity 1: Closures
 ## Review 1: Closures
 ## Instructor Demo 2: Scope Chain
+
+### Key terms and points
+* Define 'scope chain'
+* Closures inherit variable and parameter from their parents
+* 
 ## Student Activity 2: Scope Chain
 ## Review 2: Scope Chain
 ## Instructor Demo 3: Practical Use Cases for Closures
