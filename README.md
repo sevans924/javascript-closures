@@ -56,7 +56,8 @@ __Prior knowledge of students:__
 ## Review 1: Closures
 * Allow students the opportunity to ask questions about their activity and/or share what they discovered
 * The review file contains an empty function called ```onion```. Have students take turns declaring global and local variables, creating a closure, and invoking the closure using ```onion```. Encourage them to try multiple solutions. _i.e. How does the code change when the closure is an anonymous function?_
-* Extension: Guide students through creating multiple closures, or in this case, multiple layers of the onion. 
+* Extension 1: Look at the function in instructor-demo.js - ask students to discuss whether or not the inner function is a closure, since it doesn't reference any variables in its lexical environment.
+* Extension 2: Guide students through creating multiple closures, or in this case, multiple layers of the onion. 
 ## Instructor Demo 2: Scope Chain
 
 ### Key terms and points
@@ -81,7 +82,7 @@ __Prior knowledge of students:__
 * Students should complete the review activity independently or in pairs.
 * Allow students the opportunity to ask questions about their student activity and review activity. They should share what they discovered.
 * Ask students to define scope chain in their own words
-* Ask students to explain how scope chain relates 
+* Ask students to explain how scope chain relates to closures
 ## Instructor Demo 3: Practical Use Cases for Closures
 Privacy
 ## Student Activity 3: Practical Use Cases for Closures

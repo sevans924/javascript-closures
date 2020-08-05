@@ -1,6 +1,5 @@
 
-  /////closure
-
+  
   let skin = 'outer' 
 
   function onion(){
@@ -18,5 +17,15 @@
   
   let myOnion = onion()
   console.log(myOnion())
+
+  ///////Extension
+  //Is the function below a closure? Discuss.
+
+  function amIClosure () {
+      let x = 'I am not used by the inner function'
+      return function amIClosure(){
+          console.log('Am I a closure if I do not reference my surrounding state?')
+      }
+  }
   
   
