@@ -1,3 +1,3 @@
 
-image: ![](/img/Scope-Chain-Activity.jpg)
+![](/img/Scope-Chain-Activity.jpg)
 
