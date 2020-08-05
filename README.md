@@ -5,7 +5,7 @@ Skills Assessment for 2U: Included in this repository is a lesson plan and activ
 
 __Stoking Curiosity:__
 * ‘The Hook’
- * a tool used to engage students in a concept 
+* A tool used to engage students in a concept 
 * Encourage students to draw connections between the concept and their own experience, other coding concepts, or the world
 
 __Real World Problem:__
