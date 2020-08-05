@@ -51,14 +51,22 @@ __Prior knowledge of students:__
 
 
 ## Student Activity 1: Closures
-Students will debug functions and invocations in order to demonstrate key points.
+* Students will debug functions and invocations in order to demonstrate key points.
+* Students will write their own function that includes a closure.
 ## Review 1: Closures
+* Allow students the opportunity to ask questions about their activity and/or share what they discovered
+* The review file contains an empty function called ```onion```. Have students take turns declaring global and local variables, creating a closure, and invoking the closure using ```onion```. Encourage them to try multiple solutions. _i.e. How does the code change when the closure is an anonymous function?_
+* Extension: Guide students through creating multiple closures, or in this case, multiple layers of the onion. 
 ## Instructor Demo 2: Scope Chain
 
 ### Key terms and points
 * Define 'scope chain'
-* Closures inherit variable and parameter from their parents
+* Closures inherit variables and parameters from their parent functions
+
+### Notes
 * 
+
+
 ## Student Activity 2: Scope Chain
 ## Review 2: Scope Chain
 ## Instructor Demo 3: Practical Use Cases for Closures

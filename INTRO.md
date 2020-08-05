@@ -25,8 +25,8 @@ A __closure__ is basically a function inside of a function.
 
 ```
 function myPassword() {
-  var password = 'safe,Password20';
-  function guessPassword (userInput) {
+  var password = 'safe,Password20';         ///// password is a local variable created by myPassword
+  function guessPassword (userInput) {      /////guessPassword is a closure
       if ( userInput === password) {
         return true;
       } else {
