@@ -78,8 +78,12 @@ __Prior knowledge of students:__
 ## Student Activity 2: Scope Chain
 * students will practice creating closures and variables to demonstrate scope chain.
 ## Review 2: Scope Chain
+* Allow students the opportunity to ask questions about their activity and/or share what they discovered
+* Ask students to define scope chain in their own words
 ## Instructor Demo 3: Practical Use Cases for Closures
+Privacy
 ## Student Activity 3: Practical Use Cases for Closures
+Revisit function from intro - students try again
 ## Review 3: Practical Use Cases for Closures
 
 ## References
