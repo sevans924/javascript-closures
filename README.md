@@ -76,6 +76,7 @@ __Prior knowledge of students:__
 * Summarize key points.
 
 ## Student Activity 2: Scope Chain
+* students will practice creating closures and variables to demonstrate scope chain.
 ## Review 2: Scope Chain
 ## Instructor Demo 3: Practical Use Cases for Closures
 ## Student Activity 3: Practical Use Cases for Closures

@@ -6,3 +6,11 @@
                 function innerFunc(){
                     return (a + b + c + d + e + f + g)
                 }
+
+
+/////////////////////////////////
+//Declare a function called circusParade. This function should include a closure with at least 3 parent functions, inherit several variables set equal to animal names, and return the string, 'The circus parade has', that includes the names of all of the animals (variables) in the parade.
+
+function circusParade(){
+    
+}
