@@ -14,3 +14,15 @@
 function circusParade(){
     
 }
+
+
+//////////////////////////////////
+//1. Right now, wormHole() is an empty function. Write 3 more functions inside of wormHole() so that they are nested within each other. 
+//2. Declare and assign values to variables 
+
+function wormHole(){
+
+}
+
+//////////////////////////////////
+//Optional Extension: Go back through all of your functions and experiment with defining closures and invoking them in different ways. How does the code change eahc time?
