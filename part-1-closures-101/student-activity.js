@@ -1,69 +1,73 @@
 ///////Use below to demonstrate different ways to invoke a closure. What works and what doesn't? What do you think will happen here? How do we fix it?
 
-//////define function as a variable, return it after variable is declared.
-////Note that it has access to the local variable even though it hasn't been passed in as an argument
-function sayHello() {
-    var say = function() { console.log(hello); }
-    // Local variable that ends up within the closure 
-    var hello = 'Hello, world!';
+
+//The following functions are broken and need to be fixed. Work on debugging so that each returns the phrase, 'Oh, hey there!'
+//* check functions, variables, and invocations
+
+function greeting() {
+    var say = function() { console.log(something); }
+    return say;
+    var something = 'Oh, hey there!';
+   
+  }
+  var sayHey = greeting(); 
+  sayHey();
+  
+  /////////////////////////////////////////////////////////////////
+
+  function greeting1() {
+    function say() {  
+        console.log(something); 
+    }
+    var something = 'Oh, hey there!';
     return say;
   }
-  var sayHelloClosure = sayHello(); 
-  sayHelloClosure(); // ‘Hello, world!’
-  
-  /////////////define function and then return it after variable has been declare
-  function sayHello1() {
-    function say() {     console.log(hello); }
-    // Local variable that ends up within the closure 
-    var hello = 'Hello, world!';
-    return say;
+  var sayHey1 = greeting1(); 
+
+  ////////////////////////////////////////////////////////////////
+
+
+  function greeting2() {
+    return function say() { 
+        console.log(something); 
+    }
+    var something = 'Oh, hey there!';
   }
-  var sayHelloClosure1 = sayHello1(); 
-  sayHelloClosure1(); // ‘Hello, world!’
+  var sayHey2 = greeting2(); 
+  sayHey2(); 
+
+
+  ////////////////////////////////////////////////////////////////
   
-  //////return closure before var is declared
-  function sayHello2() {
-    return function say() { console.log(hello); }
-    // Local variable that ends up within the closure 
-    var hello = 'Hello, world!';
-    
+  function sayHeyThere3() {
+    var something = 'Oh, hey there!';
+    var say = function() { console.log(something); }
+    return say
   }
-  var sayHelloClosure2 = sayHello2(); 
-  sayHelloClosure2(); // undefined
   
-  /////declared function
-  function sayHello3() {
-     // Local variable that ends up within the closure 
-    var hello = 'Hello, world!';
-    return function say() { console.log(hello); }
-    
+  sayHey3()
+  
+////////////////////////////////////////////////////////////////
+
+  function greeting4() {
+    var something = 'Oh, hey there!';
+    function say() { 
+      let bye = 'bye now'
+      console.log(something);
+       } 
+       console.log(bye)
+       return say  
   }
-  var sayHelloClosure3 = sayHello3(); 
-  sayHelloClosure3(); // 'Hello, world!'
-  
-  
-  /////anonymour function
-  function sayHello4() {
-     // Local variable that ends up within the closure 
-    var hello = 'Hello, world!';
-    return function() { 
-      let bye = 'bye'
-      console.log(hello);
-       }
-  }
-  var sayHelloClosure4 = sayHello4(); 
-  sayHelloClosure4(); // 'Hello, world!'
-  
-  ////outter function doesnt have access to closure's scope - cant console.log bye
-  // function sayHello5() {
-  //   function say() { 
-  //   let bye = 'bye'
-  //     console.log(hello); 
-  //     }
-  //   // Local variable that ends up within the closure 
-  //   var hello = 'Hello, world!';
-  //   console.log(bye)
-  //   return say;
-  // }
-  // var sayHelloClosure5 = sayHello5(); 
-  // sayHelloClosure5(); // ReferenceError
+  greeting4()(); 
+
+////////////////////////////////////////////////////////////////
+
+//1. Once you finish debugging above, uncomment  myFunction below. 
+//2. Declare a variable in the local scope of myFunction and give it a value.
+//3. Create a closure that uses the variable that you just declared (you chose how to use it).
+//4. Declare a global variable and incorporate it into your closure.
+//5. Invoke myFunction and make sure that it is returning the value that you expected. If not, debug and try again!
+
+// function myFunction(){
+
+// }
