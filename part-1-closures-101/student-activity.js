@@ -11,7 +11,7 @@ function sayHello() {
   var sayHelloClosure = sayHello(); 
   sayHelloClosure(); // ‘Hello, world!’
   
-  /////////////define function and then return it after variable has been declares
+  /////////////define function and then return it after variable has been declare
   function sayHello1() {
     function say() {     console.log(hello); }
     // Local variable that ends up within the closure 

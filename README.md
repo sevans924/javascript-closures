@@ -51,6 +51,7 @@ __Prior knowledge of students:__
 
 
 ## Student Activity 1: Closures
+Students will debug functions and invocations in order to demonstrate key points.
 ## Review 1: Closures
 ## Instructor Demo 2: Scope Chain
 
