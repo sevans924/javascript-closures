@@ -1,8 +1,6 @@
-///////Use below to demonstrate different ways to invoke a closure. What works and what doesn't? What do you think will happen here? How do we fix it?
 
 
-//The following functions are broken and need to be fixed. Work on debugging so that each returns the phrase, 'Oh, hey there!'
-//* check functions, variables, and invocations
+//The following functions are broken and need to be fixed. Use what you know about closures so far to debug so that each returns the phrase, 'Oh, hey there!'
 
 function greeting() {
     var say = function() { console.log(something); }
