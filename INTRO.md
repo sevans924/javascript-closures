@@ -37,7 +37,7 @@ function myPassword() {
   }
   
   var checkPassword = myPassword()
-  console.log(myPassword('maskParty'))  /// false
+  console.log(checkPassword('maskParty'))  /// false
 ```
 
 Notice that ```guessPassword``` is declared inside of the ```myPassword``` function - that is one reason that it is considered a closure. ```myPassword``` is the 'parent' of ```guessPassword``` and guess what - children inherit all methods and variables from their parents. So ```guessPassword``` has access to ```password```!!!
