@@ -18,7 +18,7 @@ function circusParade(){
 
 //////////////////////////////////
 //1. Right now, wormHole() is an empty function. Write 3 more functions inside of wormHole() so that they are nested within each other. 
-//2. Declare and assign values to variables 
+//2. Declare and assign values to variables in each environment in wormHole()
 
 function wormHole(){
 
