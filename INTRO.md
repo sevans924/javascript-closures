@@ -71,9 +71,13 @@ If you are a parent, you already knew the answer to this question: no, parents d
 ![](/img/sad-parent.jpeg)
 
 
-You should have an error that looks like this ```ReferenceError: userInput is not defined```. We refer to this as _scope chain_ and you're about to learn more about the cool things that it lets us do.
+You should have an error that looks like this ```ReferenceError: userInput is not defined```. We refer to this as _scope chain_ and you're about to learn more about the cool things that it lets us do. 
+
 
 ## Conclusion
+
+The main takeaway for now, is that closures are nested functions that have access to and use variables and arguments provided by their parent function(s).
+
 Over the next couple of lessons you'll learn more about closures, scope chain, and practical use cases... aka how closures can make your life so much better! 
 
 
